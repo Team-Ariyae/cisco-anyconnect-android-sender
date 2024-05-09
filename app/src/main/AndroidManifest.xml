@@ -2,16 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <queries>
-        <package android:name="sp.application.two" />
-        <package android:name="sp.cisco.permission.GETTER_INTENT" />
-
-        <intent>
-            <action android:name="sp.cisco.GETTER_INTENT" />
-            <category android:name="android.intent.category.DEFAULT" />
-        </intent>
-    </queries>
-    <uses-permission android:name="sp.cisco.permission.GETTER_INTENT" />
 
     <application
         android:allowBackup="true"
